@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
+// Company: Cheein
+// Engineer: Filippo Cheein
 // 
 // Create Date: 08/13/2021 11:48:30 AM
 // Design Name: 
@@ -12,10 +12,6 @@
 // Description: 
 // 
 // Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
