@@ -19,54 +19,6 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-/*
-
-// generate new x and y
-module rk4(CLK, H_in, x_in, y_in, UP, x_out, y_out, CNT);
-
- input CLK, UP;
- input [7:0] H_in, x_in, y_in;
- output reg [7:0] x_out, y_out, CNT;
-
- wire [7:0] H_calc, H_clac_half, x_calc, y_calc;
- reg [14:0] k_1, k_2, k_3, k_4;
- 
- assign H_calc = H_in;
- assign H_clac_half = H_in >> 1;
- assign x_calc = x_in;
- assign y_calc = y_in;
-
- function [7:0] dy_dx;
-    input [7:0] x, y;
- 
-        begin
-            dy_dx = (x - y)/2;        
-        end
- 
- endfunction
-     
-     always @(posedge CLK)
-     begin
-         if(UP)
-           begin
-             CNT = CNT + 1;
-             
-             k_1 = H_calc * dy_dx(x_calc, y_calc);
-             k_2 = H_calc * dy_dx(x_calc + H_clac_half , y_calc + k_1/2);
-             k_3 = H_calc * dy_dx(x_calc + H_clac_half , y_calc + k_2/2);
-             k_4 = H_calc * dy_dx(x_calc + H_calc , y_calc + k_3);
-             
-             x_out = x_calc + H_calc;
-             y_out = y_calc + (1/6)*(k_1 + 2*k_2 + 2*k_3 + k_4);
-           end
-          else
-           CNT = 0;
-           
-     end
-     
-endmodule
-*/
-
 module fsm_rk4(CLK, BTN, LOW_LIM, LIMIT, LD, SEL, RST);
 
 input CLK, BTN, LOW_LIM, LIMIT;
