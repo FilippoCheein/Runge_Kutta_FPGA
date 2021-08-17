@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sim_rk4_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sim_rk4" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="6685000000001fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="163"></NameColumnWidth>
+      <ValueColumnWidth column_width="98"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="106" />
+   <wvobject fp_name="/sim_rk4/test_clk" type="logic">
+      <obj_property name="ElementShortName">test_clk</obj_property>
+      <obj_property name="ObjectShortName">test_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/BTN" type="logic">
+      <obj_property name="ElementShortName">BTN</obj_property>
+      <obj_property name="ObjectShortName">BTN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/SEL_IN" type="logic">
+      <obj_property name="ElementShortName">SEL_IN</obj_property>
+      <obj_property name="ObjectShortName">SEL_IN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/test_y_out" type="array">
+      <obj_property name="ElementShortName">test_y_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">test_y_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider73">
+      <obj_property name="label">Mux Y</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/mux_y/IN_0" type="array">
+      <obj_property name="ElementShortName">IN_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IN_0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/mux_y/IN_1" type="array">
+      <obj_property name="ElementShortName">IN_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IN_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/mux_y/SEL" type="logic">
+      <obj_property name="ElementShortName">SEL</obj_property>
+      <obj_property name="ObjectShortName">SEL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/mux_y/OUT" type="array">
+      <obj_property name="ElementShortName">OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider78">
+      <obj_property name="label">Mux X</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/mux_x/IN_0" type="array">
+      <obj_property name="ElementShortName">IN_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IN_0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/mux_x/IN_1" type="array">
+      <obj_property name="ElementShortName">IN_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IN_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/mux_x/SEL" type="logic">
+      <obj_property name="ElementShortName">SEL</obj_property>
+      <obj_property name="ObjectShortName">SEL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/mux_x/OUT" type="array">
+      <obj_property name="ElementShortName">OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider83">
+      <obj_property name="label">DX_DY_1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/func_calc_1/X_IN" type="array">
+      <obj_property name="ElementShortName">X_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">X_IN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/func_calc_1/Y_IN" type="array">
+      <obj_property name="ElementShortName">Y_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Y_IN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/func_calc_1/H_IN" type="array">
+      <obj_property name="ElementShortName">H_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">H_IN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/func_calc_1/K_IN" type="array">
+      <obj_property name="ElementShortName">K_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">K_IN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/func_calc_1/K_sign" type="logic">
+      <obj_property name="ElementShortName">K_sign</obj_property>
+      <obj_property name="ObjectShortName">K_sign</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/func_calc_1/DY_DX" type="array">
+      <obj_property name="ElementShortName">DY_DX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DY_DX[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider90">
+      <obj_property name="label">K 1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/k_calc_1/num1" type="array">
+      <obj_property name="ElementShortName">num1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">num1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/k_calc_1/num2" type="array">
+      <obj_property name="ElementShortName">num2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">num2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/k_calc_1/num1_sign" type="logic">
+      <obj_property name="ElementShortName">num1_sign</obj_property>
+      <obj_property name="ObjectShortName">num1_sign</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/k_calc_1/num2_sign" type="logic">
+      <obj_property name="ElementShortName">num2_sign</obj_property>
+      <obj_property name="ObjectShortName">num2_sign</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/k_calc_1/result" type="array">
+      <obj_property name="ElementShortName">result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider96">
+      <obj_property name="label">DX_DY 2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/func_calc_2/X_IN" type="array">
+      <obj_property name="ElementShortName">X_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">X_IN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/func_calc_2/Y_IN" type="array">
+      <obj_property name="ElementShortName">Y_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Y_IN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/func_calc_2/H_IN" type="array">
+      <obj_property name="ElementShortName">H_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">H_IN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/func_calc_2/K_IN" type="array">
+      <obj_property name="ElementShortName">K_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">K_IN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/func_calc_2/K_sign" type="logic">
+      <obj_property name="ElementShortName">K_sign</obj_property>
+      <obj_property name="ObjectShortName">K_sign</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/func_calc_2/DY_DX" type="array">
+      <obj_property name="ElementShortName">DY_DX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DY_DX[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider103">
+      <obj_property name="label">K 2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/k_calc_2/num1" type="array">
+      <obj_property name="ElementShortName">num1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">num1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/k_calc_2/num2" type="array">
+      <obj_property name="ElementShortName">num2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">num2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/k_calc_2/num1_sign" type="logic">
+      <obj_property name="ElementShortName">num1_sign</obj_property>
+      <obj_property name="ObjectShortName">num1_sign</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/k_calc_2/num2_sign" type="logic">
+      <obj_property name="ElementShortName">num2_sign</obj_property>
+      <obj_property name="ObjectShortName">num2_sign</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/k_calc_2/result" type="array">
+      <obj_property name="ElementShortName">result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider109">
+      <obj_property name="label">DY_DX 3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/func_calc_3/X_IN" type="array">
+      <obj_property name="ElementShortName">X_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">X_IN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/func_calc_3/Y_IN" type="array">
+      <obj_property name="ElementShortName">Y_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Y_IN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/func_calc_3/H_IN" type="array">
+      <obj_property name="ElementShortName">H_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">H_IN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/func_calc_3/K_IN" type="array">
+      <obj_property name="ElementShortName">K_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">K_IN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/func_calc_3/K_sign" type="logic">
+      <obj_property name="ElementShortName">K_sign</obj_property>
+      <obj_property name="ObjectShortName">K_sign</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/func_calc_3/DY_DX" type="array">
+      <obj_property name="ElementShortName">DY_DX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DY_DX[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider116">
+      <obj_property name="label">K 3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/k_calc_3/num1" type="array">
+      <obj_property name="ElementShortName">num1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">num1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/k_calc_3/num2" type="array">
+      <obj_property name="ElementShortName">num2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">num2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/k_calc_3/num1_sign" type="logic">
+      <obj_property name="ElementShortName">num1_sign</obj_property>
+      <obj_property name="ObjectShortName">num1_sign</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/k_calc_3/num2_sign" type="logic">
+      <obj_property name="ElementShortName">num2_sign</obj_property>
+      <obj_property name="ObjectShortName">num2_sign</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/k_calc_3/result" type="array">
+      <obj_property name="ElementShortName">result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider122">
+      <obj_property name="label">DY_DX 4</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/func_calc_4/X_IN" type="array">
+      <obj_property name="ElementShortName">X_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">X_IN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/func_calc_4/Y_IN" type="array">
+      <obj_property name="ElementShortName">Y_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Y_IN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/func_calc_4/H_IN" type="array">
+      <obj_property name="ElementShortName">H_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">H_IN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/func_calc_4/K_IN" type="array">
+      <obj_property name="ElementShortName">K_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">K_IN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/func_calc_4/K_sign" type="logic">
+      <obj_property name="ElementShortName">K_sign</obj_property>
+      <obj_property name="ObjectShortName">K_sign</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/func_calc_4/DY_DX" type="array">
+      <obj_property name="ElementShortName">DY_DX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DY_DX[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider129">
+      <obj_property name="label">K 4</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/k_calc_4/num1" type="array">
+      <obj_property name="ElementShortName">num1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">num1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/k_calc_4/num2" type="array">
+      <obj_property name="ElementShortName">num2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">num2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/k_calc_4/num1_sign" type="logic">
+      <obj_property name="ElementShortName">num1_sign</obj_property>
+      <obj_property name="ObjectShortName">num1_sign</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/k_calc_4/num2_sign" type="logic">
+      <obj_property name="ElementShortName">num2_sign</obj_property>
+      <obj_property name="ObjectShortName">num2_sign</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/k_calc_4/result" type="array">
+      <obj_property name="ElementShortName">result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider135">
+      <obj_property name="label">Y_calc</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/calc_Y/Y_IN" type="array">
+      <obj_property name="ElementShortName">Y_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Y_IN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/calc_Y/K_1" type="array">
+      <obj_property name="ElementShortName">K_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">K_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/calc_Y/K_2" type="array">
+      <obj_property name="ElementShortName">K_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">K_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/calc_Y/K_3" type="array">
+      <obj_property name="ElementShortName">K_3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">K_3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/calc_Y/K_4" type="array">
+      <obj_property name="ElementShortName">K_4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">K_4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/calc_Y/Y_OUT" type="array">
+      <obj_property name="ElementShortName">Y_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Y_OUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider142">
+      <obj_property name="label">Register</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/register_Y/LD" type="logic">
+      <obj_property name="ElementShortName">LD</obj_property>
+      <obj_property name="ObjectShortName">LD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/register_Y/CLR" type="logic">
+      <obj_property name="ElementShortName">CLR</obj_property>
+      <obj_property name="ObjectShortName">CLR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/register_Y/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/register_Y/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider148">
+      <obj_property name="label">Counter</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/counter/COUNT" type="array">
+      <obj_property name="ElementShortName">COUNT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">COUNT[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider149">
+      <obj_property name="label">FSM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/fsm_rk4_calc/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/fsm_rk4_calc/BTN" type="logic">
+      <obj_property name="ElementShortName">BTN</obj_property>
+      <obj_property name="ObjectShortName">BTN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/fsm_rk4_calc/LD" type="logic">
+      <obj_property name="ElementShortName">LD</obj_property>
+      <obj_property name="ObjectShortName">LD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/fsm_rk4_calc/LD_DISP" type="logic">
+      <obj_property name="ElementShortName">LD_DISP</obj_property>
+      <obj_property name="ObjectShortName">LD_DISP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/fsm_rk4_calc/SEL" type="logic">
+      <obj_property name="ElementShortName">SEL</obj_property>
+      <obj_property name="ObjectShortName">SEL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/fsm_rk4_calc/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/fsm_rk4_calc/PS" type="array">
+      <obj_property name="ElementShortName">PS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PS[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/fsm_rk4_calc/NS" type="array">
+      <obj_property name="ElementShortName">NS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">NS[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider97">
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/register_hexa_8/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/register_hexa_7/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/register_hexa_6/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/register_hexa_5/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/register_hexa_4/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/register_hexa_3/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/register_hexa_2/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/register_hexa_1/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/Values/Fast/count" type="array">
+      <obj_property name="ElementShortName">count[13:0]</obj_property>
+      <obj_property name="ObjectShortName">count[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/Values/Fast/clockout" type="logic">
+      <obj_property name="ElementShortName">clockout</obj_property>
+      <obj_property name="ObjectShortName">clockout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/Slow_clock/count" type="array">
+      <obj_property name="ElementShortName">count[13:0]</obj_property>
+      <obj_property name="ObjectShortName">count[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/Slow_clock/clockout" type="logic">
+      <obj_property name="ElementShortName">clockout</obj_property>
+      <obj_property name="ObjectShortName">clockout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/Values/count" type="array">
+      <obj_property name="ElementShortName">count[1:0]</obj_property>
+      <obj_property name="ObjectShortName">count[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/Values/Anodes" type="array">
+      <obj_property name="ElementShortName">Anodes[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Anodes[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/Values/value" type="array">
+      <obj_property name="ElementShortName">value[3:0]</obj_property>
+      <obj_property name="ObjectShortName">value[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_rk4/uut/Values/seg" type="array">
+      <obj_property name="ElementShortName">seg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">seg[7:0]</obj_property>
+   </wvobject>
+</wave_config>
