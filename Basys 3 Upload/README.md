@@ -40,7 +40,7 @@ Simulation:
  
       Result Hexadecimal (Fixed Numbers) : 0000 7244
       Result Binary      (Fixed Numbers) : 0000 0000 0000 0000 0111 0010 0100 0100
-      Result in Decimals                 : 0 + 2^-2 + 2^-3 + 2^-4 + 2^-7 + 2^-10 + 2^-14 = 0.44635
+      Result in Decimals                 : 0 + 2^-2 + 2^-3 + 2^-4 + 2^-7 + 2^-10 + 2^-14 = 0.4463
 
 ![alt text](https://github.com/FilippoCheein/Runge_Kutta_FPGA/blob/main/Basys%203%20Upload/Simulation%20Pic/test_2.JPG?raw=true)
 
