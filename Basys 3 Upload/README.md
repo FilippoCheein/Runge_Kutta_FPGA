@@ -71,6 +71,6 @@ Right 4 Hexadecimal:
  
       Result Hexadecimal (Fixed Numbers) : 0000 BC5A
       Result Binary      (Fixed Numbers) : 0000 0000 0000 0000 1011 1100 0101 1010
-      Result in Decimals                 : 0 + 2^-1 + 2^-3 + 2^-4 + 2^-5 + 2^-6 + 2^-10 + 2^-12 + 2^-13 + 2^-15 = 0.73575
+      Result in Decimals                 : 0 + 2^-1 + 2^-3 + 2^-4 + 2^-5 + 2^-6 + 2^-10 + 2^-12 + 2^-13 + 2^-15 = 0.7358
 
 ![alt text](https://github.com/FilippoCheein/Runge_Kutta_FPGA/blob/main/Basys%203%20Upload/Simulation%20Pic/test_5_1.JPG?raw=true)
