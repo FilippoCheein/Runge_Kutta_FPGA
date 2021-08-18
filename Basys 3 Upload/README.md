@@ -12,6 +12,8 @@ This Method was translated in hardware by using Verilog and then uploaded in a X
 There is an FSM that control which step should be done by the machine. The main step is the calculation step, while the others are to give control to the board and show the results so that can be checked. 
 The calculation stage is timed by a shift register to make sure each stage is functioning correctly.
 
+The numbers within the FPGA are interpreted as signed fixed numbers so to allow the existance of decimals and negative numbers. The fixed number multiplication module was taken from a licensed github designer cited in the module. It was widely edited to allow the use of signed numbers. 
+
 Black Box Design Diagram:
 
 ![alt text](https://github.com/FilippoCheein/Runge_Kutta_FPGA/blob/main/Basys%203%20Upload/RK4_Black_Box_Diagram_Final.PNG?raw=true)
