@@ -9,10 +9,11 @@ A Matlab translation can be found in the main folder.
 
 This Method was translated in hardware by using Verilog and then uploaded in a Xilinx Basys 3 Board. The Black Box Diagram and FSM State Diagram can be found below as well as a few simulation results.
 
-There is an FSM that control which step should be done by the machine. The main step is the calculation step, while the others are to give control to the board and show the results so that can be checked. 
-The calculation stage is timed by a shift register to make sure each stage is functioning correctly.
+The inputs are hard coded due to limited I/O ports in the board. For resolution purposes the values are 64 bit numbers.
 
 The numbers within the FPGA are interpreted as signed fixed numbers so to allow the existance of decimals and negative numbers. The fixed number multiplication module was taken from a licensed github designer cited in the module. It was widely edited to allow the use of signed numbers. 
+
+There is an FSM that controls which step should be done by the machine. The main step is the calculation step, while the others are to give control to the board and show the results so that can be checked. The calculation stage is timed by a shift register to make sure each stage is functioning correctly.
 
 Black Box Design Diagram:
 
