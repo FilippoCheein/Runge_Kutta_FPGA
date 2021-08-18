@@ -45,4 +45,4 @@ Case 4:  N = 10, x_o = 0, y_o = 1, c = 2
 
 Case 4:  N = 10, x_o = 0, y_o = 0, c = 2
 
-![alt text](https://github.com/FilippoCheein/Runge_Kutta_FPGA/blob/main/Basys%203%20Upload/Simulation%20Pic/test_5.JPG?raw=true)
+![alt text](https://github.com/FilippoCheein/Runge_Kutta_FPGA/blob/main/Basys%203%20Upload/Simulation%20Pic/test_5_1.JPG?raw=true)
