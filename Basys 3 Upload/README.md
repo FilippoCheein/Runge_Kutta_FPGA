@@ -7,6 +7,7 @@ A typical Runge Gutta Algorithm taken from the book "Fundamentals of Differentia
 
 A Matlab translation can be found in the main folder. 
 
+This Method was translated in Hadrware by using Verilog and then uploaded in a Xilinx Basys 3 Board. The Black Box Diagram and FSM State Diagram can be found below as well as a few simulation results.
 
 Black Box Design Diagram:
 
