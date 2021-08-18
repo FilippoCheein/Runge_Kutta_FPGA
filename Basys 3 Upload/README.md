@@ -26,6 +26,7 @@ Simulation:
 
 Case 1:  N = 10, x_o = 0, y_o = -1, c = 2:
 * Result for Case 1:  N = 10, x_o = 0, y_o = -1, c = 2:
+
 Result Hexadecimal (Fixed Numbers) : 0000 5E2F
 Result Binary      (Fixed Numbers) : 0000 0000 0000 0000 0101 1110 0010 1111
 Result in Decimals                 : 0 + 2^-2 + 2^-4 + 2^-5 + 2^-6 + 2^-7 + 2^-11 + 2^-13 + 2^-14 + 2^-15 + 2^-16 = 0.3679   
