@@ -27,7 +27,7 @@ FSM State Diagram:
 
 Simulation:
 
-* Result for Case 1:  N = 10, x_o = 0, y_o = -1, c = 2:
+* Result interpretation for Case 1:  N = 10, x_o = 0, y_o = -1, c = 2:
  
       Result Hexadecimal (Fixed Numbers) : 0000 5E2F
       Result Binary      (Fixed Numbers) : 0000 0000 0000 0000 0101 1110 0010 1111
@@ -36,7 +36,7 @@ Simulation:
 ![alt text](https://github.com/FilippoCheein/Runge_Kutta_FPGA/blob/main/Basys%203%20Upload/Simulation%20Pic/test_1.JPG?raw=true)
 
 
-* Result for Case 2: N = 10, x_o = -1, y_o = -1, c = 2:
+* Result interpretation for Case 2: N = 10, x_o = -1, y_o = -1, c = 2:
  
       Result Hexadecimal (Fixed Numbers) : 0000 7244
       Result Binary      (Fixed Numbers) : 0000 0000 0000 0000 0111 0010 0100 0100
@@ -52,7 +52,7 @@ Simulation:
 
 ![alt text](https://github.com/FilippoCheein/Runge_Kutta_FPGA/blob/main/Basys%203%20Upload/Simulation%20Pic/test_3.JPG?raw=true)
 
-* Result for Case 4: N = 10, x_o = 0, y_o = 1, c = 2:
+* Result interpretation for Case 4: N = 10, x_o = 0, y_o = 1, c = 2:
  
       Result Hexadecimal (Fixed Numbers) : 0001 1A85
       Result Binary      (Fixed Numbers) : 0000 0000 0000 0001 0001 1010 1000 0101
@@ -67,8 +67,7 @@ Right 4 Hexadecimal:
 ![alt text](https://github.com/FilippoCheein/Runge_Kutta_FPGA/blob/main/Basys%203%20Upload/Simulation%20Pic/test_4_2.JPG?raw=true)
 
 
-Case 5:  N = 10, x_o = 0, y_o = 0, c = 2
-* Result for Case 5:  N = 10, x_o = 0, y_o = 0, c = 2:
+* Result interpretation for Case 5:  N = 10, x_o = 0, y_o = 0, c = 2:
  
       Result Hexadecimal (Fixed Numbers) : 0000 BC5A
       Result Binary      (Fixed Numbers) : 0000 0000 0000 0000 1011 1100 0101 1010
