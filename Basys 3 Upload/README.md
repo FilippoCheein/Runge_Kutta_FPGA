@@ -20,3 +20,11 @@ Black Box Design Diagram:
 FSM State Diagram:
 
 ![alt text](https://github.com/FilippoCheein/Runge_Kutta_FPGA/blob/main/Basys%203%20Upload/RK4_FSM_State_Diagram.PNG?raw=true)
+
+
+Simulation:
+
+Case:  N = 10, x_o = 0, y_o = -1, c = 2
+
+![alt text](https://github.com/FilippoCheein/Runge_Kutta_FPGA/blob/main/Basys%203%20Upload/Simulation%20Pic/test_1.JPG?raw=true)
+
