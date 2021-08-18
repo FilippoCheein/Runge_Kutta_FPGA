@@ -70,8 +70,8 @@ module RK4_fpga(CLOCK, btn, btn_r, btnU, sseg, DISP_EN);
     assign inverse_n =   32'b0000000000000000_0001100110011010;
     assign test_x_o  =   32'b0000000000000000_0000000000000000;
    // assign test_x_o  =   32'b1111111111111111_0000000000000000;
-   // assign test_y_o  =   32'b0000000000000001_0000000000000000;
-    assign test_y_o  =   32'b1111111111111111_0000000000000000;
+    assign test_y_o  =   32'b0000000000000001_0000000000000000;
+    //assign test_y_o  =   32'b1111111111111111_0000000000000000;
     assign test_c    =   32'b0000000000000010_0000000000000000;
     assign test_n    =   32'b0000000000001010_0000000000000000;
     
@@ -139,12 +139,10 @@ module RK4_fpga(CLOCK, btn, btn_r, btnU, sseg, DISP_EN);
     fixed_multi k_calc_1 (.num1(h_out), .num2(dx_dy_1), .num1_sign(H_sign_out), .num2_sign(K1_sign), .result(k_1), .overflow(), .precisionLost(), .result_full() );
     
     // Stage 2: K_2
-    //signed_shifter K1_half( .data_in(k1_1), .dbit(H_sign_out ^ K1_sign), .sel(1'b1), .data_out(k1_1_half));
     function_module func_calc_2( .X_IN(x_1), .Y_IN(y_1), .H_IN(h_out_half), .K_IN(k1_1 >>> 1), .clk(clk), .K_sign(K2_sign), .DY_DX(dx_dy_2) );
     fixed_multi k_calc_2 (.num1(h_out), .num2(dx_dy_2), .result(k_2), .num1_sign(H_sign_out), .num2_sign(K2_sign), .overflow(), .precisionLost(), .result_full() );
     
     // Stage 3: K_3
-    //signed_shifter K2_half( .data_in(k2_1), .dbit(H_sign_out ^ K2_sign), .sel(1'b1), .data_out(k2_1_half));
     function_module func_calc_3( .X_IN(x_2), .Y_IN(y_2), .H_IN(h_out_half), .K_IN(k2_1 >>> 1 ), .clk(clk), .K_sign(K3_sign), .DY_DX(dx_dy_3) );
     fixed_multi k_calc_3 (.num1(h_out), .num2(dx_dy_3), .result(k_3), .num1_sign(H_sign_out), .num2_sign(K3_sign), .overflow(), .precisionLost(), .result_full() );
     
@@ -159,8 +157,6 @@ module RK4_fpga(CLOCK, btn, btn_r, btnU, sseg, DISP_EN);
     
     // y calculator
     // y_rk4 = y + (1/6)*(k_1 + 2*k_2 + 2*k_3 + k_4)
-   // signed_shifter K2_doubler( .data_in(k2_3), .dbit(1'b0), .sel(1'b0), .data_out(k2_3_double));
-   // signed_shifter K3_doubler( .data_in(k3_2), .dbit(1'b0), .sel(1'b0), .data_out(k3_2_double));
     Y_calculator calc_Y( .Y_IN(y_4), .K_1(k1_4), .K_2(k2_3 <<< 1), .K_3(k3_2 <<< 1), .K_4(k4_1), .Y_OUT(y_rk4) );
     
      // store final value
@@ -189,7 +185,6 @@ module RK4_fpga(CLOCK, btn, btn_r, btnU, sseg, DISP_EN);
      // control for fsm
      // tells when the Nth run of the modules is reached
      comparator_nb comp( .A(count), .B(test_n << 2), .EQ(limit), .LT(), .GT());
-     //comparator_nb low_comp( .A(count), .B(32'b0), .EQ(low_limit), .LT(), .GT());
      
      // up counter to check when nth loop is met
      counter_fixed_num counter( .CLK(clk), .RST(rst), .COUNT(count) );
