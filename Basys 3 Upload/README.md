@@ -24,7 +24,6 @@ FSM State Diagram:
 
 Simulation:
 
-Case 1:  N = 10, x_o = 0, y_o = -1, c = 2:
 * Result for Case 1:  N = 10, x_o = 0, y_o = -1, c = 2:
  
       Result Hexadecimal (Fixed Numbers) : 0000 5E2F
@@ -33,7 +32,12 @@ Case 1:  N = 10, x_o = 0, y_o = -1, c = 2:
 
 ![alt text](https://github.com/FilippoCheein/Runge_Kutta_FPGA/blob/main/Basys%203%20Upload/Simulation%20Pic/test_1.JPG?raw=true)
 
-Case 2:  N = 10, x_o = -1, y_o = -1, c = 2
+
+* Result for Case 1: N = 10, x_o = -1, y_o = -1, c = 2:
+ 
+      Result Hexadecimal (Fixed Numbers) : 0000 7244
+      Result Binary      (Fixed Numbers) : 0000 0000 0000 0000 0111 0010 0100 0100
+      Result in Decimals                 : 0 + 2^-2 + 2^-3 + 2^-4 + 2^-7 + 2^-10 + 2^-14 = 0.44635
 
 ![alt text](https://github.com/FilippoCheein/Runge_Kutta_FPGA/blob/main/Basys%203%20Upload/Simulation%20Pic/test_2.JPG?raw=true)
 
