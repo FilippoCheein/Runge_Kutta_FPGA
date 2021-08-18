@@ -127,7 +127,7 @@ module our_sseg(clk, seg, Anodes, regA, regB, regC, regD);// regA_2, regB_2, reg
            
            10 : seg = 8'b00010001;
            
-           11 : seg = 8'b00000001;
+           11 : seg = 8'b11000001;
            
            12 : seg = 8'b01100011;
            
