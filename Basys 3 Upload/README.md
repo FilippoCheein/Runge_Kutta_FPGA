@@ -33,7 +33,7 @@ Simulation:
 ![alt text](https://github.com/FilippoCheein/Runge_Kutta_FPGA/blob/main/Basys%203%20Upload/Simulation%20Pic/test_1.JPG?raw=true)
 
 
-* Result for Case 1: N = 10, x_o = -1, y_o = -1, c = 2:
+* Result for Case 2: N = 10, x_o = -1, y_o = -1, c = 2:
  
       Result Hexadecimal (Fixed Numbers) : 0000 7244
       Result Binary      (Fixed Numbers) : 0000 0000 0000 0000 0111 0010 0100 0100
@@ -41,17 +41,34 @@ Simulation:
 
 ![alt text](https://github.com/FilippoCheein/Runge_Kutta_FPGA/blob/main/Basys%203%20Upload/Simulation%20Pic/test_2.JPG?raw=true)
 
-Case 3:  N = 10, x_o = -1, y_o = 1, c = 2
+* Result for Case 3: N = 10, x_o = -1, y_o = 1, c = 2:
+ 
+      Result Hexadecimal (Fixed Numbers) : 0000 E47D
+      Result Binary      (Fixed Numbers) : 0000 0000 0000 0000 1110 0100 0111 1101
+      Result in Decimals                 : 0 + 2^-1 + 2^-2 + 2^-3 + 2^-6 + 2^-10 + 2^-11 + 2^-12 + 2^-13 + 2^-14 + 2^-16 = 0.8925
 
 ![alt text](https://github.com/FilippoCheein/Runge_Kutta_FPGA/blob/main/Basys%203%20Upload/Simulation%20Pic/test_3.JPG?raw=true)
 
-Case 4:  N = 10, x_o = 0, y_o = 1, c = 2
+* Result for Case 4: N = 10, x_o = 0, y_o = 1, c = 2:
+ 
+      Result Hexadecimal (Fixed Numbers) : 0001 1A85
+      Result Binary      (Fixed Numbers) : 0000 0000 0000 0000 1110 0100 0111 1101
+      Result in Decimals                 : 0 + 2^-1 + 2^-2 + 2^-3 + 2^-6 + 2^-10 + 2^-11 + 2^-12 + 2^-13 + 2^-14 + 2^-16 = 0.8925
+
+Left 4 hexadecimal:
 
 ![alt text](https://github.com/FilippoCheein/Runge_Kutta_FPGA/blob/main/Basys%203%20Upload/Simulation%20Pic/test_4_1.JPG?raw=true)
+
+Right 4 Hexadecimal:
 
 ![alt text](https://github.com/FilippoCheein/Runge_Kutta_FPGA/blob/main/Basys%203%20Upload/Simulation%20Pic/test_4_2.JPG?raw=true)
 
 
-Case 4:  N = 10, x_o = 0, y_o = 0, c = 2
+Case 5:  N = 10, x_o = 0, y_o = 0, c = 2
+* Result for Case 5:  N = 10, x_o = 0, y_o = 0, c = 2:
+ 
+      Result Hexadecimal (Fixed Numbers) : 0000 E47D
+      Result Binary      (Fixed Numbers) : 0000 0000 0000 0000 1110 0100 0111 1101
+      Result in Decimals                 : 0 + 2^-1 + 2^-2 + 2^-3 + 2^-6 + 2^-10 + 2^-11 + 2^-12 + 2^-13 + 2^-14 + 2^-16 = 0.8925
 
 ![alt text](https://github.com/FilippoCheein/Runge_Kutta_FPGA/blob/main/Basys%203%20Upload/Simulation%20Pic/test_5_1.JPG?raw=true)
