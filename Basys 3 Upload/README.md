@@ -32,6 +32,14 @@ Case 2:  N = 10, x_o = -1, y_o = -1, c = 2
 
 ![alt text](https://github.com/FilippoCheein/Runge_Kutta_FPGA/blob/main/Basys%203%20Upload/Simulation%20Pic/test_2.JPG?raw=true)
 
-Case 3:  N = 10, x_o = 0, y_o = 1, c = 2
+Case 3:  N = 10, x_o = -1, y_o = 1, c = 2
 
 ![alt text](https://github.com/FilippoCheein/Runge_Kutta_FPGA/blob/main/Basys%203%20Upload/Simulation%20Pic/test_3.JPG?raw=true)
+
+Case 4:  N = 10, x_o = 0, y_o = 1, c = 2
+
+![alt text](https://github.com/FilippoCheein/Runge_Kutta_FPGA/blob/main/Basys%203%20Upload/Simulation%20Pic/test_4_1.JPG?raw=true)
+
+![alt text](https://github.com/FilippoCheein/Runge_Kutta_FPGA/blob/main/Basys%203%20Upload/Simulation%20Pic/test_4_2.JPG?raw=true)
+
+
