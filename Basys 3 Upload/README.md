@@ -10,7 +10,7 @@ A Matlab translation can be found in the main folder.
 This Method was translated in hardware by using Verilog and then uploaded in a Xilinx Basys 3 Board. The Black Box Diagram and FSM State Diagram can be found below as well as a few simulation results.
 
 There is an FSM that control which step should be done by the machine. The main step is the calculation step, while the others are to give control to the board and show the results so that can be checked. 
-The calculation stage is timed by a shift register to make sure each state is functioning correctly.
+The calculation stage is timed by a shift register to make sure each stage is functioning correctly.
 
 Black Box Design Diagram:
 
