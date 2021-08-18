@@ -33,10 +33,10 @@ module function_module(X_IN, Y_IN, H_IN, K_IN, clk, K_sign, DY_DX);
  
  input clk;
  input signed [n-1:0] X_IN, Y_IN, H_IN, K_IN;
- output signed [n-1:0] DY_DX;
+ output wire signed [n-1:0] DY_DX;
  output K_sign;
  wire SIGN_FLAG;
- wire [n-1:0] sum_x_h, sum_y_k, sub_out;
+ wire signed [n-1:0] sum_x_h, sum_y_k, sub_out;
   
   // sum_x_h = X_IN + H_IN
   rca_nb adder_1 ( .a(X_IN), .b(H_IN), .cin(0), .sum(sum_x_h), .co());
@@ -47,9 +47,10 @@ module function_module(X_IN, Y_IN, H_IN, K_IN, clk, K_sign, DY_DX);
   // sub_out = X_IN + H_IN - Y_IN - K_IN;
   subtractor_nb sub( .A(sum_x_h), .B(sum_y_k), .SUB(sub_out), .sign_flag(SIGN_FLAG), .Co() );
   
+  assign DY_DX = sub_out>>>1;
   assign K_sign = SIGN_FLAG;
   
   // DY_DX = (X_IN + H_IN - Y_IN - K_IN)/2;
-  signed_shifter div_by_2( .data_in(sub_out), .dbit(SIGN_FLAG), .sel(1'b1), .data_out(DY_DX));
+ // signed_shifter div_by_2( .data_in(sub_out), .dbit(SIGN_FLAG), .sel(1'b1), .data_out(DY_DX));
   
 endmodule

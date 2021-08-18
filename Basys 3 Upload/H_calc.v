@@ -25,11 +25,11 @@ module H_calc(X_o, C, N, H_sign, H);
     
  parameter n = 32;
     
- input [n-1:0] C, X_o, N;
+ input signed [n-1:0] C, X_o, N;
  wire [n-1:0] C_X_sub;
  wire SIGN_FLAG;
  output H_sign;
- output [n-1:0] H;   
+ output signed [n-1:0] H;   
     
      // C_X_sub = C - X_o
      subtractor_nb H_sub( .A(C), .B(X_o), .SUB(C_X_sub), .sign_flag(SIGN_FLAG), .Co() );

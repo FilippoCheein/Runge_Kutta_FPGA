@@ -22,7 +22,7 @@
 
 module comparator_nb(A, B, EQ, LT, GT);
  parameter n = 32;
- input [n-1:0] A, B;
+ input signed [n-1:0] A, B;
  output reg EQ, LT, GT;
 
 

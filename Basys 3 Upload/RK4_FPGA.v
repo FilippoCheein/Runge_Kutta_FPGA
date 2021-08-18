@@ -67,9 +67,11 @@ module RK4_fpga(CLOCK, btn, btn_r, btnU, sseg, DISP_EN);
     
     // input to the runge kutta
     // x_o = 0, y_0 = 5, N = 10, 1/N = 0.1
-    assign inverse_n = 32'b0000000000000000_0001100110011010;
-    assign test_x_o  = 32'b0000000000000000_0000000000000000;
-    assign test_y_o  = 32'b0000000000000101_0000000000000000;
+    assign inverse_n =   32'b0000000000000000_0001100110011010;
+    assign test_x_o  =   32'b0000000000000000_0000000000000000;
+   // assign test_x_o  =   32'b1111111111111111_0000000000000000;
+   // assign test_y_o  =   32'b0000000000000001_0000000000000000;
+    assign test_y_o  =   32'b1111111111111111_0000000000000000;
     assign test_c    =   32'b0000000000000010_0000000000000000;
     assign test_n    =   32'b0000000000001010_0000000000000000;
     
@@ -86,7 +88,7 @@ module RK4_fpga(CLOCK, btn, btn_r, btnU, sseg, DISP_EN);
     
     //Clock Divider for Slow Clock 
     // 20 for good performance
-      clk_divder_nbit #(.n(13)) Slow_clock(
+      clk_divder_nbit #(.n(20)) Slow_clock(
      .clockin (CLOCK),
      .clockout (clk) );
     
