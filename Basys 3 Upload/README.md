@@ -24,7 +24,7 @@ FSM State Diagram:
 
 Simulation:
 
-Case 1:  N = 10, x_o = 0, y_o = -1, c = 2
+Case 1:  N = 10, x_o = 0, y_o = -1, c = 2:
 * Result for Case 1:  N = 10, x_o = 0, y_o = -1, c = 2
 Result Hexadecimal (Fixed Numbers) : 0000 5E2F
 Result Binary      (Fixed Numbers) : 0000 0000 0000 0000 0101 1110 0010 1111
