@@ -26,10 +26,10 @@ Simulation:
 
 Case 1:  N = 10, x_o = 0, y_o = -1, c = 2:
 * Result for Case 1:  N = 10, x_o = 0, y_o = -1, c = 2:
-
-Result Hexadecimal (Fixed Numbers) : 0000 5E2F
-Result Binary      (Fixed Numbers) : 0000 0000 0000 0000 0101 1110 0010 1111
-Result in Decimals                 : 0 + 2^-2 + 2^-4 + 2^-5 + 2^-6 + 2^-7 + 2^-11 + 2^-13 + 2^-14 + 2^-15 + 2^-16 = 0.3679   
+ 
+      Result Hexadecimal (Fixed Numbers) : 0000 5E2F
+      Result Binary      (Fixed Numbers) : 0000 0000 0000 0000 0101 1110 0010 1111
+      Result in Decimals                 : 0 + 2^-2 + 2^-4 + 2^-5 + 2^-6 + 2^-7 + 2^-11 + 2^-13 + 2^-14 + 2^-15 + 2^-16 = 0.3679   
 
 ![alt text](https://github.com/FilippoCheein/Runge_Kutta_FPGA/blob/main/Basys%203%20Upload/Simulation%20Pic/test_1.JPG?raw=true)
 
